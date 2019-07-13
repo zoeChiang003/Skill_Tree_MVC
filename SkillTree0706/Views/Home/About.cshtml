@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "About";
+    var userName = "紀能恕";
+}
+歡迎您好@(userName)!
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+@section menu{
+    <p>
+        我是featured
+    </p>
+}
+@Html.Action("SubAction")
+
+<p>Use this area to provide additional information.</p>

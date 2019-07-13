@@ -1,0 +1,9 @@
+﻿@model SkillTree0706.Models.LoginViewModel
+
+<h2>Login</h2>
+@if (Model!=null && !string.IsNullOrWhiteSpace(Model.Message))
+{
+    <div class="alert alert-warning">
+        @Model.Message
+    </div>
+}
